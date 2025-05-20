@@ -11,5 +11,6 @@ class Calculator:
 if __name__ == "__main__":
     calc = Calculator()
     print("Welcome to Calculator!")
+    print("Addition: 5 + 3 =", calc.add(5, 3))
     print("Multiplication: 5 * 3 =", calc.multiply(5, 3))
     print("Subtraction: 5 - 3 =", calc.subtract(5, 3))
